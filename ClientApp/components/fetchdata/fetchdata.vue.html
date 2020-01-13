@@ -1,0 +1,28 @@
+<template>
+    <div>
+        <ejs-grid 
+            :dataSource="data"
+            :editSettings="editOptions"
+            :toolbar="toolbarOptions">
+            <e-columns>
+                <e-column field="OrderID" headerText="Order ID" :isPrimaryKey="true" 
+                    textAlign="Right" width="90"></e-column>
+                <e-column field="CustomerID" headerText="Customer ID" width="120"></e-column>
+                <e-column field="Freight" headerText="Freight" editType="numericedit" 
+                    textAlign="Right" format="C2" width="90"></e-column>
+                <e-column field="ShipCity" headerText="Ship City" editType="dropdownedit" 
+                    textAlign="Right" width="120"></e-column>
+                 <e-column field="ShipCountry" headerText="Ship Country" editType="dropdownedit" 
+                    textAlign="Right" width="120"></e-column>
+            </e-columns>
+        </ejs-grid>
+    </div>
+</template>
+
+<style>
+  @import url("https://cdn.syncfusion.com/ej2/material.css");
+</style>
+
+<script src="./fetchdata.ts"></script>
+
+
