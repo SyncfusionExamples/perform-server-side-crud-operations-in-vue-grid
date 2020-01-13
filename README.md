@@ -17,7 +17,7 @@ To run this application, you first need to clone the `perform-server-side-crud-o
 To do so, open a command prompt and run the following commands one after the other:
 
 ```
-git clone https://github.com/SyncfusionExamples/ perform-server-side-crud-operations-in-vue-grid grid-example
+git clone https://github.com/SyncfusionExamples/perform-server-side-crud-operations-in-vue-grid grid-example
 cd grid-example
 ```
 
